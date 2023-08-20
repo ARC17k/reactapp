@@ -1,0 +1,134 @@
+/* .bound{
+    position: relative;
+    width: 1250px;
+    height: 2000px;
+} */
+
+#layout{
+    position: relative;
+    left: 50%;
+    top: 0%;
+    width: 1000px;
+    height: 1000px;
+    flex-shrink: 0;
+
+    transform: rotate(45deg);
+    border-radius: 15px;
+    background: #4E4FEB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.tile_animation{
+    position: absolute;
+    margin: 3.5%;
+    flex-shrink: 0;
+
+    border-radius: 15px;
+    background: #068FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    transition: transform 1s , box-shadow 2s;
+}
+
+.tile_animation:hover{
+    transform: rotate(-45deg) scale(0.75);
+    box-shadow: 0px 8px 25px 5px #001536;
+}
+
+#tile0{
+    left: 0%;
+    bottom: 0%;
+    width: 25%;
+    height: 25%;
+}
+
+#tile1{   
+    left: 4.5%;
+    bottom: 28.5%;
+    width: 14%;
+    height: 14%;
+}
+
+#tile2{
+    left: 4.5%;
+    bottom: 46%;
+    width: 14%;
+    height: 14%;
+}
+
+#tile3{
+    left: 0%;
+    bottom: 63.5%;
+    width: 29.5%;
+    height: 29.5%;
+}
+
+#tile4{
+    left: 26.5%;
+    bottom: 28.5%;
+    width: 31.5%;
+    height: 31.5%;
+}
+
+#tile5{
+    left: 29%;
+    bottom: 3.5%;
+    width: 16%;
+    height: 16%;
+}
+
+#tile6{
+    left: 48%;
+    bottom: 3.5%;
+    width: 16%;
+    height: 16%;
+}
+
+#tile7{
+    left: 68%;
+    bottom: 0%;
+    width: 25%;
+    height: 25%;
+}
+
+#tile8{
+    left: 33%;
+    bottom: 65.75%;
+    width: 25%;
+    height: 25%;
+}
+
+#tile9{   
+    left: 61.5%;
+    bottom: 79%;
+    width: 14%;
+    height: 14%;
+}
+
+#tile10{
+    left: 79%;
+    bottom: 79%;
+    width: 14%;
+    height: 14%;
+}
+
+#tile11{   
+    left: 61.5%;
+    bottom: 44%;
+    width: 31.5%;
+    height: 31.5%;
+}
+
+#tile12{   
+    left: 63%;
+    bottom: 28.5%;
+    width: 12%;
+    height: 12%;
+}
+
+#tile13{
+    left: 79.5%;
+    bottom: 28.5%;
+    width: 12%;
+    height: 12%;
+}
